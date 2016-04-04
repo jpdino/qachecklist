@@ -1,0 +1,222 @@
+{
+  "date": "29/03/06",
+  "jobnumber": "1628010",
+  "jobname": "Another one",
+  "staging": "http://medibank.lav.net.au/16280120/",
+  "emailtest": "N/A",
+  "notes": "",
+  "qateam": {
+    "producer": {
+      "name": "Annie Chan",
+      "email": "annie.c@lavender.ad",
+      "status": "Pending"
+    },
+    "accountmanager": {
+      "name": "",
+      "email": "",
+      "status": ""
+    },
+    "frontendlead": {
+      "name": "Donald Martinez",
+      "email": "donald.m@lavender.ad",
+      "status": "Pending"
+    },
+    "creative": {
+      "name": "",
+      "email": "",
+      "status": ""
+    },
+    "leadproducer": {
+      "name": "Annie Chan",
+      "email": "annie.c@lavender.ad",
+      "status": "Pending"
+    }
+  },
+  "checklist": {
+    "producer": [
+      {
+        "text": "Ensure all images load and display correctly",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure all images have Alt tags",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Check image usage for ALL assets",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Check content/copy is correct",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Check all links point correctly",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Check Litmus and/or Email on Acid reports",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure Text Version has been created (if required)",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure Online Version has been created (if required)",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Check HTML & Text versions have \'View Online\' link",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Check HTML & Text vesrions have \'Unsubscribe\' link",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure variables are being populated with correct details",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure links with variables contain correct data",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure all links and click-throughs are tracked (for reporting purposes)",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure subject line is correct",
+        "value": null,
+        "issues": ""
+      }
+    ],
+    "creative": [
+      {
+        "text": "Build meets design requirements",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Check copy is correct",
+        "value": null,
+        "issues": ""
+      }
+    ],
+    "frontendlead": [
+      {
+        "text": "Build meets design requirements",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Check Litmus and/or Email on Acid reports",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Validate HTML source code",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure Raw development files are committed to Stash(GIT)/ checked in to TFS",
+        "value": null,
+        "issues": ""
+      }
+    ],
+    "accountmanager": [
+      {
+        "text": "Ensure all images load and display correctly",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure all images have Alt tags",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Check image usage for ALL assets",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Check content/copy is correct",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Check all links point correctly",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Check Litmus and/or Email on Acid reports",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure Text Version has been created (if required)",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure Online Version has been created (if required)",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Check HTML & Text versions have \'View Online\' link",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Check HTML & Text vesrions have \'Unsubscribe\' link",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure variables are being populated with correct details",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure links with variables contain correct data",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure all links and click-throughs are tracked (for reporting purposes)",
+        "value": null,
+        "issues": ""
+      },
+      {
+        "text": "Ensure subject line is correct",
+        "value": null,
+        "issues": ""
+      }
+    ],
+    "leadproducer": [
+      {
+        "text": "Ensure staging link is password protected for client approval (3rd party dispatch only)",
+        "value": null,
+        "issues": ""
+      }
+    ]
+  }
+}

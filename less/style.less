@@ -1,0 +1,164 @@
+body {
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+h2 {
+	margin:0 0 .5em 0;
+}
+
+a {
+  color: #00B7FF;
+}
+
+#wrapper {
+	position:relative;
+}
+
+#edit {
+	display: none;
+}
+
+#qateamlist {
+	margin:0 0 30px 0;
+
+	table {
+		width:100%;
+		border-collapse:separate;
+		border-spacing:1px;
+		background:#CCC;
+
+		th {
+			background:#EEE;
+			font-weight:600;
+			padding:10px 20px;
+			text-align:center;
+		}
+
+		tbody {
+			padding:0; margin:0;
+			border-collapse:collapse;
+			border-spacing:0px;
+		}
+
+		td {
+			background:#FFF;
+			padding:5px 10px;
+			text-align:center;
+
+			&.left {
+				text-align: left;
+			}
+		}
+	}
+
+	.teamtitle{
+		text-decoration: none;
+	}
+
+}
+
+#checklistContent {
+	margin:0 0 30px 0;
+
+	table {
+		width:100%;
+		border-collapse:separate;
+		border-spacing:1px;
+		/*background:#CCC;*/
+
+		th {
+			border-top:1px solid #ccc;
+			border-left:1px solid #ccc;
+			border-bottom:1px solid #ccc;
+			background:#EEE;
+			font-weight:600;
+			padding:10px 20px;
+			text-align:center;
+
+			&:last-child{
+				border-right:1px solid #ccc;
+			}
+		}
+
+		tbody {
+			padding:0; margin:0;
+			border-collapse:collapse;
+			border-spacing:0px;
+		}
+
+		td {
+			position: relative;
+			border-bottom:1px solid #ccc;
+			background:#FFF;
+			text-align:center;
+
+			p { 
+				padding:5px 10px;
+				text-align: left;
+			}
+
+			&.left {
+				text-align: left;
+			}
+		}
+	}
+
+	.edit-issue {
+		font-size: 12px;
+		position: absolute;
+		right:10px;
+		top:3px;
+	}
+
+}
+
+#jobInfo {
+	&:after {
+		clear:both;
+		content:'';
+		display:block;
+		font-size: 0px;
+	}
+	 .job,
+	 .notes{
+	 	width:50%;
+		float:left;
+
+
+		p {
+			border:1px solid #CCC;
+			padding:15px;
+			background:rgba(80,120,255,0.05);
+		}
+
+		&:first-child p {
+			margin-right: 25px;
+		}
+
+		&:last-child p {
+			min-height: 96px;
+		}
+		
+	}
+}
+
+.button-row {
+	padding:15px;
+	button {
+		float: right;
+	}
+}
+
+fieldset {
+	border:0;
+	padding:0; margin:0;
+}
+
+#btnUpdateUser {
+	display:none;
+}
+
+.text-left {
+	text-align: left;
+}

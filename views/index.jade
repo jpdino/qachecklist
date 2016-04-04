@@ -1,0 +1,102 @@
+extends layout
+
+block content
+	h1 QA Checklist EDM
+
+	#wrapper
+		#jobInfo
+			.job
+				p Date: 
+					strong <span id='date'></span>
+					br
+					| Job Number:
+					strong  <span id='jobnumber'></span>
+					br
+					| Job Name: 
+					strong <span id='jobname'></span>
+					br
+					br
+					| Staging: 
+					strong <span id='staging'></span>
+					br
+					| Litmus/Email on Acid: 
+					strong <span id='litmusacid'></span>
+
+			.notes
+				p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad modi nisi non dolor quibusdam veniam odio commodi sunt, doloremque ex nulla maiores ab soluta dolorem temporibus, libero explicabo corporis repellat.
+
+		//- h2 QA Team List
+		div
+			a.add.pb-10(href="#", style="display:inline-block;") add data
+			br
+			a.cleancollection.pb-10(href="#", style="display:inline-block;") clean collection
+		#qateamlist
+			table
+				thead
+					tr
+						th 
+						th Name
+						th Email
+						th Status
+						th 
+				tbody
+					tr(data-team="producer")
+						td.left <a href="#" class="teamtitle js-producer"><strong>Producer</strong></a>
+						td.name
+						td.email
+						td.status
+						td.actionbuttons
+							a.edit(href='#') Edit
+							&nbsp;|&nbsp;
+							a.sendemail(href='#') Send
+					tr(data-team="creative")
+						td.left <strong>Creative</strong>
+						td.name Louis Wong
+						td.email louis.w@lavender.ad
+						td.status Pending
+						td.actionbuttons
+							a.edit(href='#') Edit
+							&nbsp;|&nbsp;
+							a.sendemail(href='#') Send
+					tr(data-team="frontendlead")
+						td.left <strong>Front-end Lead</strong>
+						td.name Donald Martinez
+						td.email donald.m@lavender.ad
+						td.status Pending
+						td.actionbuttons
+							a.edit(href='#') Edit
+							&nbsp;|&nbsp;
+							a.sendemail(href='#') Send
+					tr(data-team="accountmanager")
+						td.left <strong>Account Management</strong>
+						td.name Acct Mgmt
+						td.email this.g@lavender.ad
+						td.status Pending
+						td.actionbuttons
+							a.edit(href='#') Edit
+							&nbsp;|&nbsp;
+							a.sendemail(href='#') Send
+					tr(data-team="leadproducer")
+						td.left <strong>Lead Producer</strong>
+						td.name Annie Chan
+						td.email annie.c@lavender.ad
+						td.status Pending
+						td.actionbuttons
+							a.edit(href='#') Edit
+							&nbsp;|&nbsp;
+							a.sendemail(href='#') Send
+
+		#edit
+			h2 <span class='js-update'>Edit</span>
+			#editTeammate
+			fieldset
+				input#inputName(type='text', placeholder='Name')
+				input#inputEmail(type='text', placeholder='Email')
+				br
+				button#btnAddUser.add.js-action Add User
+				button#btnUpdateUser.update.js-action Update User
+
+		#checklistContent.js-content
+
+
+
